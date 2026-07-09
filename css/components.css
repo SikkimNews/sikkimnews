@@ -1,0 +1,205 @@
+/* ===================================
+   COMPONENTS
+=================================== */
+
+/* Section Titles */
+
+.section-title{
+
+    text-align:center;
+
+    margin-bottom:50px;
+
+}
+
+.section-title p{
+
+    max-width:700px;
+
+    margin:0 auto;
+
+    color:#666;
+
+}
+
+/* Cards */
+
+.card{
+
+    background:#fff;
+
+    border-radius:14px;
+
+    padding:30px;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+
+    transition:.3s ease;
+
+}
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 15px 35px rgba(0,0,0,.12);
+
+}
+
+/* Buttons */
+
+.btn{
+
+    cursor:pointer;
+
+    border:none;
+
+}
+
+.btn:hover{
+
+    transform:translateY(-2px);
+
+}
+
+/* Social Icons */
+
+.social-links{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:18px;
+
+    margin-top:25px;
+
+}
+
+.social-links a{
+
+    width:50px;
+
+    height:50px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    border-radius:50%;
+
+    background:#D62828;
+
+    color:#fff;
+
+    font-size:20px;
+
+    transition:.3s;
+
+}
+
+.social-links a:hover{
+
+    background:#1D3557;
+
+}
+
+/* Forms */
+
+form{
+
+    max-width:700px;
+
+    margin:auto;
+
+}
+
+input,
+textarea{
+
+    width:100%;
+
+    padding:15px;
+
+    margin-bottom:20px;
+
+    border:1px solid #ddd;
+
+    border-radius:8px;
+
+    font-size:16px;
+
+    font-family:inherit;
+
+}
+
+textarea{
+
+    min-height:180px;
+
+    resize:vertical;
+
+}
+
+input:focus,
+textarea:focus{
+
+    outline:none;
+
+    border-color:#D62828;
+
+}
+
+/* Divider */
+
+.divider{
+
+    width:80px;
+
+    height:4px;
+
+    background:#D62828;
+
+    margin:15px auto 35px;
+
+    border-radius:5px;
+
+}
+
+/* Badges */
+
+.badge{
+
+    display:inline-block;
+
+    padding:8px 18px;
+
+    background:#D62828;
+
+    color:#fff;
+
+    border-radius:999px;
+
+    font-size:14px;
+
+    font-weight:600;
+
+}
+
+/* Shadows */
+
+.shadow{
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+/* Rounded */
+
+.rounded{
+
+    border-radius:15px;
+
+}
